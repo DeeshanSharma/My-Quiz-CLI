@@ -4,7 +4,7 @@ var userName = read.question("Tell me your name: ");
 var welcomeMsg = "Welcome " + userName + " Let's see how much you know Deeshan Sharma.."
 console.log("\n" + welcomeMsg)
 
-console.log("\nThere will be some MCQ questions where you have to enter your choice which you feel is correct option.\nYou will get +1 score for every right answer.\n+1 Level for two consecutive correct answers and -1 level for every wrong answer.\nSo, let's start")
+console.log("\nThere will be some MCQ questions where you have to enter your choice (no only)\nWhich you feel is correct option.\nYou will get +1 score for every right answer.\n+1 Level for two consecutive correct answers and -1 level for every wrong answer\nSo, let's start")
 
 var score = 0;
 var level = 1;
